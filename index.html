@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <main class="container">
+    <div class="files">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+      <div class="file-action">
+        <span><img src="./images/icon-document.svg" alt="document"></span>
+        <span><img src="./images/icon-folder.svg" alt="folder"></span>
+        <span><img src="./images/icon-upload.svg" alt="upload"></span>
+      </div>      
+    </div>
+
+    <div class="storage">
+      <p>You’ve used <b>15 GB</b> of your storage</p>
+      <div class="loading">
+         <div class="load-percent"><span></span></div>
+      </div>
+      <div class="min-max">
+        <span>0 GB</span>
+        <span>1000 GB</span>
+      </div>
+      <div class="modal-storage">
+        185 <span>GB Left</span>
+        <div></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer> -->
+
+  <script>
+     function sum(x) {
+       return function (y) {
+         return y
+       }
+     }
+
+     let addTen = sum(10);
+
+     console.log(addTen(20))
+  </script>
+</body>
+</html>
