@@ -38,13 +38,13 @@ body {
 .logo img{
     width: 100%;
 }
-.files .file-action{
+.file-action{
     height: 55px;
     width: auto;
     display: flex;
     align-items: center;
 }
-.files .file-action span{
+.file-action span{
     background-color: hsl(229, 57%, 11%);
     border-radius: 8px;
     height: 30px;
@@ -54,7 +54,7 @@ body {
     margin-right: 8px;
     cursor: pointer;
 }
-.files .file-action span img{
+.file-action span img{
     position: absolute;
     top: 50%;
     width: 15px;
@@ -75,7 +75,7 @@ body {
     font-size: 10px;
     color: #fff;
 }
-.storage .loading{
+.loading{
     margin-top: 8px;
     width: 100%;
     height: 11px;
@@ -83,14 +83,14 @@ body {
     background-color: hsl(229, 57%, 11%);
     border-radius: 8px;
 }
-.storage .loading .load-percent{
+.load-percent{
     width: 70%;
     height: 10px;
     position: relative;
     border-radius: 6px;
     background-image: linear-gradient(to right, hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
 }
-.storage .loading .load-percent span{
+.load-percent span{
     height: 10px;
     width: 10px;
     display: inline-block;
@@ -99,7 +99,7 @@ body {
     position: absolute;
     right: 0;
 }
-.storage .modal-storage{
+.modal-storage{
     position: absolute;
     top: -30px;
     right: 30px;
@@ -112,11 +112,11 @@ body {
     text-align: center;
     line-height: 50px;
 }
-.storage .modal-storage span{
+.modal-storage span{
     font-size: 10px;
     font-weight: 500;
 }
-.storage .modal-storage div{
+.modal-storage div{
     height:0px;
 	width:0px;
 	border-bottom:solid 20px transparent;
@@ -126,11 +126,11 @@ body {
     right: 0;
     bottom: -14px;
 }
-.storage .min-max{
+.min-max{
     display: flex;
     justify-content: space-between;
 }
-.storage .min-max span{
+.min-max span{
     position: relative;
     top: 5px;
     color: #fff;
@@ -154,7 +154,7 @@ body {
     .files .logo{
         width: 120px;
     }
-    .files .file-action span{
+    .file-action span{
         margin-right: 12px;
     }
     .storage {
@@ -166,7 +166,7 @@ body {
     .storage p{
         text-align: center;
     }
-    .storage .modal-storage{
+    .modal-storage{
         top: 80px;
         right: 50%;
         width: 140px;
@@ -174,25 +174,25 @@ body {
         line-height: 60px;
         transform: translateX(50%);
     }
-    .storage .modal-storage div{
+    .modal-storage div{
         display: none;
     }
-    .storage .loading{
+    .loading{
         height: 13px;
     }
-    .storage .loading .load-percent{
+    .load-percent{
         height: 12px;
     }
-    .storage .loading .load-percent span{
+    .load-percent span{
         height: 11px;
         width: 11px;
     }
-    .files .file-action span{
+    .file-action span{
         height: 40px;
         width: 40px;
         top: 20px;
     }
-    .files .file-action span img{
+    .file-action span img{
         width: 20px;
     }
 }
